@@ -1,0 +1,30 @@
+header {
+    background-color: #469e4afb;
+    color: #ffffff;
+    padding: 5px;
+}
+
+ul {
+    width: 30%;
+    margin: 0 auto;
+    list-style-position: inside;
+}
+
+li {
+    text-align: left;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+body {
+    background-color: rgb(228, 217, 70);
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
