@@ -1,6 +1,6 @@
 header {
-    background-color: #469e4afb;
-    color: #ffffff;
+    background-color: #ffffffff;
+    color: #000000;
     padding: 5px;
 }
 
@@ -21,10 +21,27 @@ main {
 }
 
 body {
-    background-color: rgb(228, 217, 70);
+    background-color: rgb(3, 3, 3);
     text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .left {
     text-align: left;
+}
+
+footer {
+    background-color: #ffffffff;
+    color: #000000;
+    padding: 1%;
+    font-size: x-small;
+    height: fit-content;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    padding: 5%;
 }
