@@ -1,3 +1,4 @@
+/*header white and font black, padding used to create border space*/
 header {
     background-color: #ffffffff;
     color: #000000;
@@ -9,7 +10,7 @@ ul {
     margin: 0 auto;
     list-style-position: inside;
 }
-
+/*list left instead of centered*/
 li {
     text-align: left;
 }
@@ -20,6 +21,7 @@ main {
     padding: 0 30px;
 }
 
+/*directions for the body section*/
 body {
     background-color: rgb(3, 3, 3);
     text-align: center;
@@ -28,10 +30,12 @@ body {
 
 }
 
+/*sentence to begin left aligned instead of centered*/
 .left {
     text-align: left;
 }
 
+/*footer instructions, I definitely had to google for the copyright symbol*/
 footer {
     background-color: #ffffffff;
     color: #000000;
@@ -40,8 +44,22 @@ footer {
     height: fit-content;
 }
 
+/*image sizing, padding for space*/
 img {
     width: 50%;
     height: 50%;
     padding: 5%;
+}
+
+/*colors for links on page before being visited, hovered, and visited*/
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:link:hover {
+    color: blue;
 }
