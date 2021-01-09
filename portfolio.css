@@ -53,13 +53,13 @@ img {
 
 /*colors for links on page before being visited, hovered, and visited*/
 a:link {
-    color: green;
+    color: rgb(114, 7, 7);
 }
 
 a:visited {
-    color: yellow;
+    color: rgb(150, 70, 5);
 }
 
 a:link:hover {
-    color: blue;
+    color: rgb(26, 26, 99);
 }
